@@ -1,0 +1,71 @@
+var sasLib5084238Elt = document.createElement('script');
+sasLib5084238Elt.Type = "text/html";
+sasLib5084238Elt.src = 'http://cdn1.smartadserver.com/diff/templates/js/agency-redirect/sas-agency-redirect-1.1.js';
+
+adapt_appendToContainer = function (formatid, item) {
+        var c = document.getElementById('sas_' + formatid);
+        if (!c) { return; }
+        if (typeof (item) === "string") {
+            var d = document.createElement('div');
+            d.innerHTML = item;
+            item = d;
+        }
+        c.appendChild(item);
+    };
+
+
+adapt_appendToContainer(21483, sasLib5084238Elt);
+	
+        if (typeof(sas_ajax) != 'undefined' && sas_ajax) {
+		var getDomElem = function(id) {
+			return document.getElementById(id).contentDocument || document.frames[id].document;
+		}
+
+		var i = document.createElement('iframe');
+		i.id = 'sas_5084238_iframe';
+		i.scrolling = 'no';
+		i.frameBorder = 0;
+		i.width = 1;
+		i.height = 1;
+		i.style.margin = 0;
+		i.style.padding = 0;
+		i.style.width = '1px';
+		i.style.height = '1px';
+		sas_appendToContainer(21483, i);
+
+		i.doc = getDomElem(i.id);
+		i.doc.write(
+			'<!doctype html><html><head><title></title></head><body style="margin:0;padding:0">'+
+			'<scr'+'ipt type="text/javascript">var inDapIF=inDapMgrIf=true;</scr'+'ipt>'+
+			'<div id="pebbleMiddle">\r\n'+'	<scr'+'ipt>\r\n'+'		var adhesePublication = "lemonde";\r\n'+'		var adheseLocation = "others";\r\n'+'		var adheseFormat = "Middle";\r\n'+'	</scr'+'ipt>\r\n'+'	<scr'+'ipt src="http://pool-pebblemedia.adhese.com/tag/tag3rd.js"></scr'+'ipt>\r\n'+'</div>\r\n'+'\r\n'+'\r\n'+
+			'<div id="sas_21483_readyDiv" style="display:none;"></div></body></html>'
+		);
+
+		if (navigator.userAgent.indexOf('MSIE') == -1 && navigator.userAgent.indexOf('Opera') == -1) i.doc.close();
+	} else {
+		document.write('<div id="pebbleMiddle">\r\n'+'	<scr'+'ipt>\r\n'+'		var adhesePublication = "lemonde";\r\n'+'		var adheseLocation = "others";\r\n'+'		var adheseFormat = "Middle";\r\n'+'	</scr'+'ipt>\r\n'+'	<scr'+'ipt src="http://pool-pebblemedia.adhese.com/tag/tag3rd.js"></scr'+'ipt>\r\n'+'</div>\r\n'+'\r\n'+'\r\n');
+	}
+
+var iframeConfig_5084238 = {
+	formatId: 21483,
+	insertionId: 5084238,
+	iFrame: i,
+	acceptedWidth: "1,300".split(","),
+	acceptedHeight: "1,250,600".split(","), 
+	defaultWidth: "1",
+	defaultHeight: "1",
+        status: "0"		
+}
+if (typeof(resizableIframeConfig11) != 'undefined')
+{
+	resizableIframeConfig11.push(iframeConfig_5084238);
+}
+else
+{
+	var resizableIframeConfig11 = new Array();
+	resizableIframeConfig11.push(iframeConfig_5084238);
+}
+
+
+
+

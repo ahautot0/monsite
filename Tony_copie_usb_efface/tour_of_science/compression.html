@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Compression</title>
+<!-- TemplateEndEditable -->
+<link href="../styles.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div id="site">
+
+
+
+
+
+
+
+  <div id="bandeau"></div>
+  <div id="menugauche">
+    <h1>Physique</h1>
+    <div class="menu"><img src="../images/einstein3.jpg" /></div>
+    <div class="bouton"><a href="../index.html">Accueil </a></div>
+    <div class="bouton"><a href="../contenuphysique.html">Présentation </a></div>
+    <div class="bouton"><a href="../Seminaires.html">Séminaires </a></div>
+    <div class="bouton"><a href="../cours.html">Cours </a></div>
+    <div><span style="color:#FC0">Divers : </span></div>
+    <div class="bouton0"><a href="../phys.html">Phys </a></div>
+    <div class="bouton0"><a href="../math.html">Math </a></div>
+    <div class="bouton0"><a href="../info.html">Info </a></div>
+    <div class="bouton"><a href="../feynmania.html">Feynmania </a></div>
+    <div class="bouton"><a href="../wolframania.html">Wolframania </a></div>
+    <div class="bouton"><a href="../references.html">Références </a></div>
+    
+</div>
+  
+  
+  <div id="menudroite">
+    <h1>Musique</h1>
+    <div class="menu"><img src="../images/beethoven100.jpg" /></div>
+    <div class="bouton"><a href="../index.html">Accueil </a></div>
+    <div class="bouton"><a href="../contenumusique.html">Présentation </a></div>
+    <div class="bouton"><a href="../musique2001.html">Musique 2001 </a></div>
+    <div class="bouton"><a href="../crossover.html">Crossover </a></div>
+    <div class="bouton"><a href="../chroniques.html">Chroniques :</a></div>
+    <div class="bouton0"><a href="../billetdhumeur.html">  Billets d'Humeur </a></div>
+    <div class="bouton0"></div>
+    <div class="bouton0"><a href="../tourdumondedemusiqueactuelle.html">Tour du monde</a></div>
+    <div class="bouton0"><a href="../portraitscompositeurs.html">Portraits </a></div>
+    <div class="bouton0"><a href="../grandscycles.html">Grands Cycles </a></div>
+    <div class="bouton0"><a href="../tiresdeloubli.html">Tirés de l'oubli </a></div>
+    <div class="bouton0"></div>
+    <div class="bouton"><a href="../quizz.html">Who's who </a></div>
+  </div>
+  
+  <div id="corps"><!-- TemplateBeginEditable name="mod" --><link rel="shortcut icon" href="../Templates/logo.ico" />
+  
+  
+  <h2>Le problème de la compression des mesures.</h2>
+  
+  <p>Chacun se fait une idée de ce que signifie compresser un fichier de données. La pratique est quotidienne en informatique où elle concerne le plus souvent les images et les sons. On distingue habituellement la compression avec perte et celle sans perte, celle-ci plus précieuse mais fatalement moins efficace. La science peut être vue comme l'art de compresser  les données issues de l'observation ou de l'expérimentation et dans ce cas précis, il s'agit d'une compression sans perte, la seule qui va nous occuper dans la suite.</p>
+  <p>Un fichier de données peut toujours être traduit en notation binaire, rien que des 0 et des 1. A moins que les données y figurant soient complètement aléatoires, ce qui ne serait pas franchement intéressant, la succession des 0 et des 1 fait généralement apparaître des régularités syntaxiques facilement repérables :</p>
+  <p>-  les caractères binaires peuvent apparaître avec des fréquences inégales à 1/2,</p>
+  <p>- si ce n'est pas le cas, les doublets 00, 01, 10 et 11 peuvent apparaître avec des fréquences inégales à 1/4,</p>
+  <p>- et ainsi de suite pour les triplets, quadruplets, etc ... .</p>
+  <p>La situation n'est pas différente dans un texte rédigé en français où le doublet &quot;es&quot; est le plus fréquent suivi par &quot;de&quot;, &quot;le&quot;, &quot;en&quot;, &quot;re&quot;, ... .  On peut mettre à profit cette redondance en codant les doublets fréquents par un symbole unique quitte à coder  certains doublets rares sur 3 voire 4 caractères, au bilan on sera gagnant : le nouveau fichier sera plus court. Cette opération est possible mais elle réclame quelques précautions afin de garantir la décodabilité unique du fichier compressé; elles sont exposées en détail ici mais précisément ces détails ne nous intéressent pas. Un théorème dû à Shannon affirme que la compression syntaxique sans perte ne peut réussir au-delà d'un taux de compression optimal appelé limite étendue de Shannon. Elle vaut (p<sub>k,i</sub> désigne la fréquence d'apparition du i<sup>ème</sup> k-uplet dans le fichier présumé suffisamment long) :</p>
+  
+  
+    <div id="photogauche"><img src="../tour_of_science/images/compression/equ1.png" /></div>
+ 
+  <p>   Ce théorème fixe une limite à la compression syntaxique mais il ne dit pas comment l'obtenir (En pratique il n'est pas nécessaire de faire tendre k vers l'infini, la considération des doublets voire des triplets suffit généralement). La méthode optimale a fait l'objet de nombreuses recherches qui ont abouti en plusieurs algorithmes basés sur des principes différents mais proches de l'optimum. Il devrait être clair qu'un fichier compressé syntaxiquement n'est plus redondant sinon il n'aurait pas été compressé optimalement : tous les multiplets de longueur k y apparaissent désormais avec des fréquences égales à 2<sup>-k</sup>, on dit que le fichier est devenu normal au sens de Borel.  </p>
+  <p>En résumé, la compression syntaxique consiste à soumettre la suite donnée au  programme pour en tirer sa version compressée. Elle est utile à l'ingénieur qui désire compresser un fichier à coup sûr mais pas au scientifique qui recherche la logique sous-jacente à ses observations. La compression syntaxique est inintelligente, uniquement préoccupée d'éliminer les redondances syntaxiques. Ce que le scientifique recherche c'est une compression sémantique qui apprivoise la logique interne des données. </p>
+  <p>Une telle compression sémantique existe de fait, c'est la compression par programme dont l'origine remonte aux travaux de Kolmogorov. Un exemple simple, emprunté aux mathématiques, permet de comprendre de quoi il retourne. La liste des N premiers chiffres binaires caractérisant le nombre pi constitue un fichier incompressible syntaxiquement du fait qu'il est apparemment normal au sens de Borel. Est-ce à dire que pour envoyer cette liste à un correspondant qui la réclame on en est réduit à l'envoyer in extenso sous la forme d'un programme à une seule instruction Print[1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 
+0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 
+0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 
+1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 
+1, 0, 1, 1, 1, 0, 0, 0, ...] ? Certainement pas parce que si les chiffres successifs semblent se succéder dans le plus grand désordre ils obéissent en fait à une logique condensable en un programme court capable de calculer dans l'ordre les chiffres demandés. Plutôt qu'envoyer la liste in extenso, il est bien plus économique d'envoyer ce programme court que le correspondant pourra faire tourner pour retrouver la suite d'origine. C'est exactement comme cela que la science procède, elle recherche en permanence le plus courrt programme capable de restituer les données.</p>
+  
+  <div id="photogauche"><img src="../tour_of_science/images/compression/mars.jpg" />
+  <div class="legende">Relevés effectués en 2011/12 pendant la période du mouvement rétrograde apparent</div></div>
+<p> Imaginons un cataclysme ayant ravagé notre humanité et le désarroi de quelques survivants, profanes en sciences mais soucieux de tout reconstruire. Peut-être (re)commenceraient-ils, comme nos ancêtres, par l'astronomie. L'observaton du ciel étoilé révèle que l'immense majorité des astres visibles semblent immobiles en projection sur la sphère céleste. Cependant quelques points lumineux, en particulier les planètes, se déplacent lentement d'un jour à l'autre et l'idée vient naturellement de consigner dans un registre les déplacements observés.</p>
+  
+
+   
+  <p>Cette opération réclame un peu de soin au niveau du repère fixe utilisé. On pourrait comme cela se fait actuellement utiliser une sorte de longitude et de latitude (les termes exacts sont ascension droite et déclinaison) repérées à partir d'un équateur et d'un méridien d'origine fixés conventionnellement mais on pourrait plus simplement s'en tenir aux écarts angulaires mesurés de jour en jour par rapport à deux étoiles toujours les mêmes prises en référence. Cette option suffit à la démonstration qui suit. Chaque jour à la même heure on note les deux angles mesurés dans un registre. Chaque mesure nécessite disons 48 bits soit 6 octets si bien qu'au terme de 10 ans d'observations patientes, un fichier de taille 43.8 ko sera constitué. Cela n'a l'air de rien mais son impression nécessiterait de l'ordre de 180 feuilles A4, une taille difficilement gérable !</p>
+  <p>C'est précisément l'objet de la science de réduire drastiquement la taille de ce fichier au travers d'une procédure présumée intelligente. Compresser un fichier peut être envisagé de deux manières complètement différentes :</p>
+  <p>- Syntaxiquement en mettant en oeuvre une procédure effective basée sur un théorème de Shannon. l'idée est la suivante : les données qui constituent le fichier varient naturellement d'un jour à l'autre mais le fait est qu'elles ne varient pas tant que cela car la planète se déplace très lentement dans le ciel. Autrement dit les données successives font apparaître des nombres proches, par exemple</p>
+  <p><span style="color:#F60">100101010100101001010101111101</span>010100001001011101, le premier jour et </p>
+  <p><span style="color:#F60">100101010100101001010101111101</span>110100111001000101, le lendemain</p>
+  <p>On observe qu'un grand nombre de bits est commun aux deux données, une remarque qui demeurerait largement valable pour les données suivantes. Il en résulte que le fichier est extrêmement redondant. Le premier théorème de Shannon (il en existe deux autres qui ne nous concernent pas ici) enseigne qu'un tel fichier peut être compressé par une procédure effective jusqu'à atteindre la limite étendue de Shannon où le fichier compressé devient normal au sens de Borel.</p>
+  <p>La compression syntaxique est bien réelle et elle coïncide avec celle qui est courramment pratiquée sur les fichiers images ou sons. Toutefois ce serait faire de la bien mauvaise scinece que de se contenter de cette compression aveugle.</p>
+  <p>- Sémantiquement en cherchant le programme de longueur minimum capable de reproduire le fichier des données</p>
+  
+  
+  <!-- TemplateEndEditable -->
+
+ 
+  </div>
+
+</body>
+</html>

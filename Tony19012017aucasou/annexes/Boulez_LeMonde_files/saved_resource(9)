@@ -1,0 +1,34 @@
+if (typeof adhese != 'undefined' && typeof adhese.registerDM != 'undefined') {
+  if('free' != 'free')adhese.registerDM('DMGo10909g0c0');
+  adhese.registerDM('ADV2277');
+}
+AdheseVisibleData.push({uid:"adheseVisibleDiv345566",inviewTracker:"https://ads-pebblemedia.adhese.com/track/345566-inview//sl28590/ag0/ge0///ci0/brChrome;Chrome48;Windows7//hkunknown//rn689/se//inadttrmiddlelikewoman;adttrmiddlemale;adttrmiddlenews;allowfloat/dm///HRaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/RFaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/dtdesktop/ogcontrol/A280.201.107.162.1452290053067915/?1454064844626",visibleTracker:"https://ads-pebblemedia.adhese.com/track/345566-visible//sl28590/ag0/ge0///ci0/brChrome;Chrome48;Windows7//hkunknown//rn689/se//inadttrmiddlelikewoman;adttrmiddlemale;adttrmiddlenews;allowfloat/dm///HRaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/RFaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/dtdesktop/ogcontrol/A280.201.107.162.1452290053067915/?1454064844626"});
+if (window.self !== window.top)
+{
+function adh_resizeIframe(o) {
+if(o.contentWindow.document.body.scrollWidth) {
+o.height = o.contentWindow.document.body.scrollHeight;
+o.style.height = o.contentWindow.document.body.scrollHeight + 'px';
+o.width = o.contentWindow.document.body.scrollWidth;
+o.style.width = o.contentWindow.document.body.scrollWidth+ 'px';
+} else {
+o.height = o.contentWindow.document.body.scrollHeight;
+o.style.height = o.contentWindow.document.body.scrollHeight;
+o.width = o.contentWindow.document.body.scrollWidth;
+o.style.width = o.contentWindow.document.body.scrollWidth;
+}
+}
+window.onload = function() {
+	window.setTimeout(function() {
+		adh_resizeIframe(parent.document.getElementById(this.frameElement.attributes.id.value));
+		   }, 400);
+	};
+}
+  
+if (typeof(adh_url25590) == 'undefined') adh_url25590 = 'http://clicks.pebblemedia.adhese.com/raylene//sl28590/ag0/ge0/ci0/brChrome/brChrome48/brWindows7/hkunknown/rn689/se/inadttrmiddlelikewoman/inadttrmiddlemale/inadttrmiddlenews/inallowfloat/dm/HRaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/RFaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/dtdesktop/ogcontrol/A280.201.107.162.1452290053067915/ad345566/UR';
+
+document.write("<div id='adheseVisibleDiv345566'>");
+document.write("<div class='adhese_300x250'>");
+document.write('<scr'+'ipt type="text/javascript" src="https://pool-pebblemedia.adhese.com/cssu/AdmetaParse_All_IMU.js?track=345566"></scr'+'ipt>');
+document.write("</div>");
+document.write("</div>");

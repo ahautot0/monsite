@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Hasard et probabilités</title>
+<!-- TemplateEndEditable -->
+<link href="../styles.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<meta charset="utf-8" />   <!--Ajouté en rapport avec l'entrée d'une variable au clavier du lecteur.-->
+</head>
+<body>
+<div id="site">
+
+
+
+
+
+
+
+  <div id="bandeau"></div>
+  <div id="menugauche">
+    <h1>Physique</h1>
+    <div class="menu"><img src="../images/einstein3.jpg" /></div>
+    <div class="bouton"><a href="../index.html">Accueil </a></div>
+    <div class="bouton"><a href="../contenuphysique.html">Présentation </a></div>
+    <div class="bouton"><a href="../Seminaires.html">Séminaires </a></div>
+    <div class="bouton"><a href="../cours.html">Cours </a></div>
+    <div><span style="color:#FC0">Divers : </span></div>
+    <div class="bouton0"><a href="../phys.html">Phys </a></div>
+    <div class="bouton0"><a href="../math.html">Math </a></div>
+    <div class="bouton0"><a href="../info.html">Info </a></div>
+    <div class="bouton"><a href="../feynmania.html">Feynmania </a></div>
+    <div class="bouton"><a href="../wolframania.html">Wolframania </a></div>
+    <div class="bouton"><a href="../references.html">Références </a></div>
+    
+</div>
+  
+  
+  <div id="menudroite">
+    <h1>Musique</h1>
+    <div class="menu"><img src="../images/beethoven100.jpg" /></div>
+    <div class="bouton"><a href="../index.html">Accueil </a></div>
+    <div class="bouton"><a href="../contenumusique.html">Présentation </a></div>
+    <div class="bouton"><a href="../musique2001.html">Musique 2001 </a></div>
+    <div class="bouton"><a href="../crossover.html">Crossover </a></div>
+    <div class="bouton"><a href="../chroniques.html">Chroniques :</a></div>
+    <div class="bouton0"><a href="../billetdhumeur.html">  Billets d'Humeur </a></div>
+    <div class="bouton0"></div>
+    <div class="bouton0"><a href="../tourdumondedemusiqueactuelle.html">Tour du monde</a></div>
+    <div class="bouton0"><a href="../portraitscompositeurs.html">Portraits </a></div>
+    <div class="bouton0"><a href="../grandscycles.html">Grands Cycles </a></div>
+    <div class="bouton0"><a href="../tiresdeloubli.html">Tirés de l'oubli </a></div>
+    <div class="bouton0"></div>
+    <div class="bouton"><a href="../quizz.html">Who's who </a></div>
+  </div>
+  
+  <div id="corps"><!-- TemplateBeginEditable name="mod" --><link rel="shortcut icon" href="../Templates/logo.ico" />
+  
+  
+  <h2>Hasard et probabilités : après une lecture de Jaynes.</h2>
+  
+  <p>Ceci n'est nullement un exposé concernant le calcul des probabilités, il en existe d'excellent y compris sur la toile (Grindsteadt). On résume quelques idées trop peu connues défendues en son temps par Jaynes, physicien de formation mais statisticien de coeur qui a milité pour une étude critique de sa discipline. Un mathématicien françis, Jacques Harthong a égélement défendur des points de vue souvent jugés à contre-courant qui méritent une (re)lecture.</p>
+  <p>Historiquement le calcul des probabilités a pris son essor au cours de la deuxième moitié du 17<sup>ème</sup> siècle sous les impulsions conjuguées de   Pierre de Fermat (1601-1665), Blaise Pascal (1623-1662), Christian Huygens (1629-1695) et Jakob Bernoulli (1655-1705). Leur motivation axée sur la prévision des issues de jeux de hasard, en particulier l'étude des martingales, a développé l'analyse combinatoire (dénombrement des permutations, combinaisons et autres arrangements qui vous ont tant fait souffrir lorsque vous aviez 16-17 ans).</p>
+  <p>Il est rare qu'une branche des mathématiques suscite des querelles d'interprétations, c'est pourtant ce qui s'est produit en cent ans avec le calcul des probabilités. Celui-ci n'est d'ailleurs pas entré sans peine au cursus de la formation des mathématiciens professionnels. Vers 1900, les éléments de calcul des probabilités étaient fourrés là où on leur trouvait de la place, souvent en introduction au cours de physique expérimentale ! Cette localisation pouvait surprendre mais elle avait ses raisons. </p>
+<p>-Les systèmes étudiés, dés ou roulettes de casino, étaient effectivement des systèmes mécaniques que l'on qualifie aujourd'hui de chaotiques. De prime abord, on pourrait trouver étrange d'expérimenter sur des systèmes obéissant aux lois de la mécanique newtonienne pour illustrer les lois du hasard. Après tout on pourrait imaginer filmer la trajectoire de la bille et de la roulette tant qu'il est encore temps de parier puis de confier la prédiction de la trjectoire ultérieure afin de maximiser ses chances de gains. Outre que ce serait sûrement interdit par le casino, le procédé aurait peu de chances de réussir car cette dynamique est réputée chaotique : la moindre erreur d'appréciation dans les conditions initiales de la bille et de la roulette induit une imprécision dans la prédiction de la trajectoire qui de ce fait explose exponentiellement avec le temps. mécaniques Bien qu'ils obéissent aux lois de la mécanique newtonienne d'où on pourrait penser qu'une mesure minutieuse de leur état initial devrait permettre de calculer la trajectoire des dés il n'en est rien précisément parce que la dynamique est exponentiellement sensible à la moindre variation des conditions initiales.</p>
+
+  <div id="photogauche"><img src="../tour_of_science/images/hasard/fig1.jpg" /></div>
+<p>Les physiciens distinguent habituellement le hasard du pseudo-hasard. Selon eux, le hasard vrai n'intervient que dans le monde quantique. Lorsqu'une pluie de photons tombe au compte-goutes sur une lame semi-transparente, inclinée à 45°, les deux détecteurs situés en aval enregistrent l'arrivée des photons aléatoirement. Autrement dit, si l'on code par 0 et par 1 les détections au niveau de D0 et de D1, la suite binaire construite est aléatoire : aucun programme substantiellement plus court que &quot;Print 00010101111010...&quot; ne peut imprimer la suite observée.</p>
+  <p>- Les mathématiciens sont longtemps demeurés méfiants vis-à-vis du calcul des probabilités et ils avaient leurs raisons : aucun domaine des sciences n'est davantage sujet aux interprétations douteuses  débouchant sur des paradoxes perturbants.
+  les raisons sont multiples : </p>
+  <p>- le calcul des probabilités n'échappe pas à la tautologie initiale. On présuppose trop souvent - faute de mieux ? - et  à tort l'équiprobabilité des épreuves et cela donne le paradoxe de Bertrand.</p>
+  <p>- on y introduit des hypothèses impossible à tenir dans un cadre axiomatique inexistant. Ce cadre existe aujourd'hui.</p>
+  <p>- on invoque abusivement une notion de probabilité là où elle n'a aucune raison d'être(Quelle est la probabilité que les martiens sopient verts ?). On confond encore trop souvent probabilité (au sens fréquenciste du terme) et vraisemblabilité (au sens de la théorie de Bayes). Actuellement même en mécanique quantique, une école a pris naissance prête à adopter le point de vue (subjectiviste !) de Bayes considéré comme  plus sain. </p>
+  
+  <p>&nbsp;</p>
+  <p>Les choses ont changé au 20ème siècle sous l'impulsion de Kolmogorov qui a formalisé la notion de probabilité. Il convient de réaliser que cette axiomatique ne règle que le calcul des probabilités mais qu'elle est muette en ce qui concerne le cadre dans lequel on travaille. Un travail préliminiare demeure nécessaire qui fixe ce cadre. Le paradoxe de Bertrand est l'exemple type du genre de désagréments auquel on s'expose si on l'ignore.</p>
+  <p>&nbsp;</p>
+  <p>La meilleure définition que l'on puisse donner d'une suite aléatoire est d'être incompressible. Supposons que l'on souhaite transmettre une suite, de longueur N, sN, à un correspondant, il est évidemment possible de l'envoyer telle quelle. On peut faire beaucoup mieux dans tous les cas où la suite est structurée par un programme court : il suffit d'envoyer ce programme que le destinataire n'aura plus qu'à exécuter. Qu'un tel programme existe est évident : Print[s] où s est écrit in extenso fait l'affaire mais évidemment il ne compresse rien du tout. Parmi tous les programmes qui impriment s, il en est un qui est plus court que tous les autres, c'est le programme élégant de la suite, s. Notons M la longueur de ce programme élégant. Une suite, s, est aléatoire si son programme élégant est de longueur, N ~  M. Moins la suite est aléatoire plus grande est la différence, N - M.</p>
+  <p>Cette définition ne prend tout son sens que si on utilise un langage de programmation minimal qui n'allonge pas inutilement l'encodage du programme sous-jacent, ce qui  fausserait l'impression qu'on aurait du caractère aléatoire de la suite. Les machines de Turing minimales telles que décrites par Wolfram conviennent à cet effet. Ces machines sont numérotables dans l'ordre de complexité croissante de leur table d'instructions et la taille en binaire du numéro de la première machine qui s'arrête en imprimant s vaut M sans ambiguité. A première vue il semblerait qu'il suffise de faire tourner, une fois pour toutes, toutes les machines de Turing pour obtenir le listing complet des machines élégantes et donc, avec beaucoup de patience, de conférer sa complexité algorithmique, M, à n'importe quelle suite. Outre le temps colossal qu'une telle entreprise prendrait, elle bute sur le problème de l'indécidabilité de l'arrêt des machines de Turing e, général.</p>
+  <p>Cependant toutes les machines de Turing ne sont pas frappées d'indécidabilité  et le début du listing des programmes élégants est certainement possible. En effet les machines à deux (4096), trois (2985984) et quatre (4294967296) états sont toutes décidables, cela en fait au total 4297957376. La plupart ne s'arrêtent pas : elles bouclent ou elles adoptent un comportement auto-similaire. Parmi celles qui s'arrêtent, bien peu sont élégantes du fait que beaucoup de machines finissent par imprimer une suite déjà imprimée par une machine plus petite. Le sort des 10240000000000 machines à 5 états n'est pas intégralement connu, certaines machines ne cessant de calculer sans faire mine ni de boucler ni de s'arrêter. Il est possible qu'en poursuivant le calcul on trouverait qu'elles finissent par s'arrêter d'où on pourrait passer aux machines à 6 états mais par définition de l'indécidabilité on ne saura jamais quand abandonner la tâche. Une possibilité serait d'ignorer ces cas présumés rares et de s'en tenir aux machines qui s'arrêtent en un temps raisonnable fixé d'avance. Il est clair que ce faisant on manquerait certains programmes élégants et qu'on majorerait arbitrairement la complexité de certaines suites en leur attribuant un programme élégant qui n'est pas le bon.</p>
+  <p>Numéroter les suites est facile, il suffit de les ranger par ordre de longueurs croissantes et dans l'ordre lexicographique lorsqu'elles sont de longueurs égales, cela donne </p>
+  <p>Cet ordre est inintelligent : il ne fait aucune différence entre les suites ordonnées et celles qui sont aléatoires. On répare ce défaut en adoptant une numérotation basée sur la compression par machines de Turing.</p>
+<p>Inversement toutes les suites jusqu'à 8 bits (au moins) sont décidables du point de vue de la détermination de leur machine élégante. L'application suivante affiche les résultats pourvu que vous numérotiez correctement la suite qui vous intéresse : les suites étant énumérées dans l'ordre naturel, 0, 1, 00, 01, 10, 11, 000, 001, etc, il devrait être clair pour tout le monde que le numéro d'ordre s'obtient en préfixant chaque suite par un 1 et en traduisant en notation décimale le binaire obtenu (On convient de réserver le n°1 à la suite vide {}). Par exemple, la suite 001 porte le n° 9 car 9 se note 1001 en binaire). Entrez cet entier, 9, dans la fenêtre suivante et obtenez les informations demandées : </p>
+  
+   <h2>Entrez un entier compris entre 2 et 511 (inclus) :</h2>
+        <input id="nombre" type="text"/>
+        <button style="width:100px;height:30px" onClick="display_image();">affiche l'image</button> <br>
+        
+        <input id="nombre2" type="text"/>		
+        <button style="width:100px;height:30px" onClick="display_image2();">affiche l'image</button> <br>
+        
+        <img style="display:none" id="mon_image" src="" />
+ 
+  
+  <p>Au vu de ce qui précède, il est clair que la suite 11111 peut être considérée comme aléatoire puisque le code binaire du numéro de son programme élégant utilise autant de bits que la suite elle-même, autrement dit que cette suite est incompressible. Il n'y a rien de choquant à considérer cette suite comme aléatoire et son occurrence n'étonnerait personne, c'est sa petitesse qui veut cela.</p>
+  <p>Une suite aléatoire peut servir à la confection d'un jeu d'argent équitable (de somme nulle). Attention que le fait de passer les tests statistiques n'est qu'une condition nécessaire au caractère aléatoire. La suite des chiffres binaires du nombre pi passe tous les tests statistiques (Elle est normale au sens de Borel : ) mais personne ne vous conseillera d'accepter de jouer sur base de ses chiffres car votre adversaire peut posséder un algorithme lui permettant de calculer au compte-goutes les chiffres successifs.</p>
+  <p>Il existe deux écoles de calcul des probabilités, fréquenciste et bayésienne. Elles se sont longtemps disputées le droit de traiter de la notion de probabilité mais il est désormais acquis qu'elles ont toutes les deux droit de cité et qu'elles se complètent. Le malentendu qui a longtemps régné repose sur un abus de langage que l'on peut régler comme suit :</p>
+  <p>- Le point de vue fréquenciste est pertinent toutes les fois que l'on considère des épreuves répétées un grand nombre de fois, par exemple le lancer honnête d'une pièce de monnaie non truquée. La probabilité d'occurrence de tout nouveau tirage, disons pile, est définie comme le rapport du nombre d'occurrences &quot;pile&quot; au nombre de lancers.</p>
+  <p>- Le point de vue bayésien ambitionne de donner un sens à la notion de probabilité d'un événement isolé, par exemple celle d'échapper à la grippe l'hiver prochain. Utiliser le même mot &quot;probabilité&quot; dans les deux cas est malheureux et on préfère parler de plausibilité. </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>ilité en l'affranchissant de son attirail physique encombrant. D'un strict point de vue opérationnel ,la question centrale est ceklle de savoir si vou acceptez de jouer à un jeu de hasard équitable lorsque ce hasard est piloté par un système physique donné. Autrement dit, à quel système êtes-vous prêt à faire confiance ?</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p>La notion de jeu équitable propose un critère subjectif décision du caractère aléatoire d'une suite binaire. Envoyer des photons au compte-goutes sur une lame semi-transparente constitue le meilleur moyen connu de générer une suite binaire aléatoire garantissant un jeu équitable à mises égales.  Cependant les jeux de casino utilisent des génératurs classiques fondé sur la notion de chaos dynamique. A première vue on ne devrait accorder aucune confiance à un procédé de ce type au motif que </p>
+  
+  <!-- TemplateEndEditable -->
+
+ 
+</div>
+
+</body>
+
+<script>
+		function display_image() {
+			var value = document.getElementById("nombre").value;
+			
+			var image = document.getElementById('mon_image');
+			image.style.display = 'block';
+			image.src = "../tour_of_science/images/hasard/sequences/" + value + ".png";
+		}
+		
+		function display_image() {
+			var value = document.getElementById("nombre2").value;
+			
+			var image = document.getElementById('mon_image');
+			image.style.display = 'block';
+			image.src = "../tour_of_science/images/hasard2/" + value + ".png";
+		}
+</script>  <!--Script ajouté en rapport avec l'entrée d'une variable au clavier du lecteur.-->
+    
+    
+
+</html>

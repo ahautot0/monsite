@@ -1,0 +1,174 @@
+if (typeof adhese != 'undefined' && typeof adhese.registerDM != 'undefined') {
+  if('one-at-a-time' != 'free')adhese.registerDM('DMGo11761g0c0');
+  adhese.registerDM('ADV2167');
+}
+AdheseVisibleData.push({uid:"adheseVisibleDiv139347",inviewTracker:"https://ads-pebblemedia.adhese.com/track/139347-inview//sl27815/ag0/ge0/coBE/rgBE07/ci0/brBelgacom_Skynet;Chrome;Chrome48;Windows7/da20160129///rn2240/se//inadttrmiddlelikewoman;adttrmiddlemale;adttrmiddlenews;allowfloat/dm///HRaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/RFaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/dtdesktop/ogcontrol/A280.201.107.162.1452290053067915/?1454064844887",visibleTracker:"https://ads-pebblemedia.adhese.com/track/139347-visible//sl27815/ag0/ge0/coBE/rgBE07/ci0/brBelgacom_Skynet;Chrome;Chrome48;Windows7/da20160129///rn2240/se//inadttrmiddlelikewoman;adttrmiddlemale;adttrmiddlenews;allowfloat/dm///HRaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/RFaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/dtdesktop/ogcontrol/A280.201.107.162.1452290053067915/?1454064844887"});
+if (window.self !== window.top)
+{
+function adh_resizeIframe(o) {
+if(o.contentWindow.document.body.scrollWidth) {
+o.height = o.contentWindow.document.body.scrollHeight;
+o.style.height = o.contentWindow.document.body.scrollHeight;
+o.width = o.contentWindow.document.body.scrollWidth;
+o.style.width = o.contentWindow.document.body.scrollWidth;
+} else {
+o.height = o.contentWindow.document.body.scrollHeight;
+o.style.height = o.contentWindow.document.body.scrollHeight;
+o.width = o.contentWindow.document.body.scrollWidth;
+o.style.width = o.contentWindow.document.body.scrollWidth;
+}
+}
+window.onload = function() {
+	window.setTimeout(function() {
+		adh_resizeIframe(parent.document.getElementById(this.frameElement.attributes.id.value));
+		   }, 400);
+	};
+}
+  
+if (typeof(adh_url29471) == 'undefined') adh_url29471 = 'http://clicks.pebblemedia.adhese.com/raylene//sl27815/ag0/ge0/coBE/rgBE07/ci0/brBelgacom_Skynet/brChrome/brChrome48/brWindows7/da20160129/rn2240/se/inadttrmiddlelikewoman/inadttrmiddlemale/inadttrmiddlenews/inallowfloat/dm/HRaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/RFaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/dtdesktop/ogcontrol/A280.201.107.162.1452290053067915/ad139347/UR';
+
+document.write("<div id='adheseVisibleDiv139347'>");
+var adh_gender_macro = '0';
+var adh_age_macro = '0';
+var adh_catergory = '';
+
+var adh_gender = adh_gender_macro=='1'?'xas':(adh_gender_macro=='3'?'due':'zzz');
+var adh_age = adh_age_macro==''?'zzz':adh_age_macro;
+
+var adh_age_range = "";
+if(12<=adh_age && adh_age<=24){
+ adh_age_range = "bud";
+}else if(25<=adh_age && adh_age<=34){
+ adh_age_range = "did";
+}else if(35<=adh_age && adh_age<=44){
+ adh_age_range = "xqe";
+}else if(45<=adh_age && adh_age<=54){
+ adh_age_range = "por";
+}else if(55<=adh_age && adh_age<=64){
+ adh_age_range = "dsd";
+}else if(65<=adh_age){
+ adh_age_range = "yrf";
+}else if(adh_age == "zzz"){
+ adh_age_range = "zzz";
+}
+
+var adh_interests = 'adttrmiddlelikewoman;adttrmiddlemale;adttrmiddlenews;allowfloat';
+var adh_rp_interests_arr = [];
+var adh_interests_list = [
+ {"label":"autobuyers","value":"658"},
+ {"label":"business","value":"245"},
+ {"label":"cook","value":"128"},
+ {"label":"culture","value":"985"},
+ {"label":"fashionistas","value":"741"},
+ {"label":"football","value":"874"},
+ {"label":"gaming","value":"254"},
+ {"label":"glamour","value":"148"},
+ {"label":"immo","value":"284"},
+ {"label":"kids","value":"487"},
+ {"label":"music","value":"632"},
+ {"label":"news","value":"951"},
+ {"label":"sport","value":"125"},
+ {"label":"travel","value":"268"},
+ {"label":"tvlovers","value":"387"},
+ {"label":"movie","value":"154"},
+ {"label":"visitor","value":"visitor"},
+ {"label":"end","value":"end"},
+ {"label":"Q1R1","value":"q1r1"},
+ {"label":"Q12AR1","value":"q12ar1"},
+ {"label":"Q12BR1","value":"q12br1"},
+ {"label":"Q12BR2","value":"q12br2"},
+ {"label":"Q12BR3","value":"q12br3"},
+ {"label":"Q9BR2","value":"q9br2"},
+ {"label":"Q9CR2","value":"q9cr2"},
+ {"label":"premiumgaming","value":"231"},
+ {"label":"technology","value":"629"},
+ {"label":"male","value":"mmm"},
+ {"label":"likewoman","value":"fff"},
+ {"label":"luxewomen","value":"999"}, 
+ {"label":"health","value":"733"}
+  
+];
+
+for (var i=0;i<adh_interests_list.length;i++){
+ if(adh_interests.indexOf(adh_interests_list[i].label) != -1){
+  adh_rp_interests_arr.push(adh_interests_list[i].value);
+ }
+}
+var adh_brands = 'Belgacom_Skynet;Chrome;Chrome48;Windows7';
+var adh_rp_brands_arr = [];
+var adh_brands_list = [
+
+ {"label":"predicube_touring_target_Q12BR1_BR2","value":"predicube_touring_target_Q12BR1_BR2"},
+ {"label":"predicube_touring_retarget_Q12BR1_BR2","value":"predicube_touring_retarget_Q12BR1_BR2"},
+ {"label":"predicube_touring_target_conversies","value":"predicube_touring_target_conversies"}, 
+ {"label":"iPad","value":"iPad"},
+ {"label":"Linux","value":"Linux"},
+ {"label":"Mac","value":"Mac"},
+ {"label":"unknownOS","value":"unknownOS"},
+ {"label":"Windows7","value":"Windows7"},
+ {"label":"Windows8","value":"Windows8"},
+ {"label":"Windows8.1","value":"Windows8.1"},
+ {"label":"WindowsVista","value":"WindowsVista"},
+ {"label":"WindowsXP","value":"WindowsXP"},
+ {"label":"Android","value":"Android"},
+ {"label":"iPhone","value":"iPhone"},
+ {"label":"unknown","value":"unknown"}
+];
+ 
+for (var i=0;i<adh_brands_list.length;i++){
+ if(adh_brands.indexOf(adh_brands_list[i].label) != -1){
+  adh_rp_brands_arr.push(adh_brands_list[i].value);
+ }
+}
+
+var adh_device = 'desktop';
+var adh_rp_device_arr = [];
+var adh_device_list = [
+ {"label":"desktop","value":"desktop"},
+ {"label":"tablet","value":"tablet"},
+ {"label":"phone","value":"phone"},
+ {"label":"unknown","value":"unknown"}
+];
+ 
+for (var i=0;i<adh_device_list.length;i++){
+ if(adh_device.indexOf(adh_device_list[i].label) != -1){
+  adh_rp_device_arr.push(adh_device_list[i].value);
+ }
+}
+
+var rp_account = '10027';
+var rp_site = '48542'; 
+var rp_zonesize = '218052-2'; 
+var rp_adtype = 'jsonp';
+var rp_smartfile = '[SMART FILE URL]';
+var rp_visitor = {
+ interests: adh_rp_interests_arr.join(","),
+ brands: adh_rp_brands_arr.join(","),
+ age_range: adh_age_range,
+ gender:adh_gender,
+ device:adh_rp_device_arr.join(","),
+ catergroy:adh_catergory
+ };
+var rp_callback = "rubiconFallBack139347";
+//var rp_floor = '4.5';
+
+
+function rubiconFallBack139347(response) { 
+ for (var i=0; i<response.ads.length; i++) {
+  var r = response.ads[i];
+  if (r.status == "ok") {
+   if (r.type=="script") {
+    document.write('<scr'+'ipt type=\"text/javascript\">'+r.script+'</scr'+'ipt><img src=\"https://ads-pebblemedia.adhese.com/track/139347-' + r.deal + '-' + r.cpm + '/?t=1454064844887\" width=\"0\" height=\"1\" style=\"display:none;\"/>');
+   }
+   if (r.type=="html") {
+    document.write(r.html + "<img src=\'https://ads-pebblemedia.adhese.com/track/139347-" + r.deal + "-" + r.cpm + "/?t=1454064844887\' width=\'0\' height=\'1\' style=\'display:none;\'>");
+   }
+   
+  } else {
+   document.write("<scr"+"ipt type=\'text/javascript\' src=\'https://ads-pebblemedia.adhese.com/adj/dmADV2167//sl27815/ag0/ge0/coBE/rgBE07/ci0/brBelgacom_Skynet;Chrome;Chrome48;Windows7/da20160129///rn2240/se//inadttrmiddlelikewoman;adttrmiddlemale;adttrmiddlenews;allowfloat/dm///HRaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/RFaHR0cDovL3d3dy5sZW1vbmRlLmZyL2Rpc3Bhcml0aW9ucy9hcnRpY2xlLzIwMTYvMDEvMDYvbW9ydC1kdS1jb21wb3NpdGV1ci1ldC1jaGVmLWQtb3JjaGVzdHJlLXBpZXJyZS1ib3VsZXpfNDg0MjUwMV8zMzgyLmh0bWw=/dtdesktop/ogcontrol/A280.201.107.162.1452290053067915?t=1454064844887\'></scr"+"ipt>");
+  }
+ }
+}
+
+document.write("<scr"+"ipt type=\'text/javascript\' src=\'https://ads.rubiconproject.com/ad/10027.js\'></scri"+"pt>");
+document.write("</div>");

@@ -1,0 +1,36 @@
+(function(w, d){
+var getDomElem = function(id)
+{ return d.getElementById(id).contentDocument || d.frames[id].document; }
+
+var i = d.createElement('iframe');
+i.id = 'sas_4179583_iframe';
+i.scrolling = 'no';
+i.frameBorder = 0;
+i.width = 300; 
+i.height = 250; 
+i.style.margin = 0;
+i.style.padding = 0;
+i.style.width = '300px';
+i.style.height = '250px';
+if (typeof(sas_ajax) != 'undefined' && sas_ajax) {
+    sas_appendToContainer(21485, i); // sas_formatId 
+} 
+else
+{ 
+    d.write('<div id="sas_rtb_4179583"></div>');
+    var sas_rtb_div = d.getElementById("sas_rtb_4179583");    
+    if((typeof (sas_rtb_div) != 'undefined') && (sas_rtb_div != null))
+    {
+        sas_rtb_div.appendChild(i);
+    }
+}
+i.doc = getDomElem(i.id);
+i.doc.write(
+'<!doctype html><html><head><title></title></head><body style="margin:0;padding:0">'+
+'<scr'+'ipt type="text/javascript">var inDapIF=inDapMgrIf=true;</scr'+'ipt>'+
+"\x3Cimg src=\'http://ww690.smartadserver.com:80/h/aip?visit=s&amp;pubid=25&amp;statid=7&amp;ckid=6406222095470149699&amp;tmstp=2372980672&amp;usrtgt=&amp;tgt=%24iab%3d12t%3bitem_id%3d4842501%3barticlevideo%3dtrue%3blongform%3dfalse%3barticletype%3dArticle%3breferrer-domain%3dwww.google.be%3brub%3ddisparitions%3brub%3dmusiques%3brub%3dculture%3b%24dt%3d1t%3b%24mct%3d1t%3b%24t%3dxml%3b%24hc&amp;systgt=%24qc%3d1314163845%3b%24ql%3dmedium%3b%24qpc%3d1000%3b%24qpp%3d0%3b%24qt%3d4_438_40516t%3b%24dma%3d0%3b%24b%3d16480%3b%24o%3d11061%3b%24sh%3d1080%3b%24sw%3d1920&amp;rfr=http%3a%2f%2fwww.lemonde.fr%2fdisparitions%2farticle%2f2016%2f01%2f06%2fmort-du-compositeur-et-chef-d-orchestre-pierre-boulez_4842501_3382.html&amp;capp=0&amp;mcrdbt=1&amp;insid=4179583&amp;imgid=0&amp;pgid=361495&amp;fmtid=0&amp;loguid=306058593303988195&amp;logdate=1454065239381&amp;rtb=1&amp;rtbnid=690&amp;rtbbid=306058593303988196&amp;rtbh=9e8fd99241c0b9b7aa50b95056f101358dc10e09&amp;rtblt=635896620393811208&amp;rtbet=0\' border=\'0\' width=\'0\' height=\'0\' style=\'display:none\'/>\x3Ciframe src=\'http://ak-ns.sascdn.com:80/diff/rtb/handler/st.min.html?%7b%22bid%22%3a%22306058593303988196%22%2c%22adomain%22%3a%22cofidis.be%22%2c%22page%22%3a%22361495%22%2c%22format%22%3a%2221485%22%2c%22crid%22%3a%221602387969%22%2c%22dsp%22%3a%2232%22%2c%22buyer%22%3a%22225%22%2c%22cid%22%3a%221601791448%22%2c%22adid%22%3a%2237756814%22%7d\' width=\'0\' scrolling=\'no\' height=\'0\' frameborder=\'0\' style=\'display: none;\'>\x3C/iframe>\x3Cscript src=\'http://ad.turn.com/server/ads.js?pub=34132038&cch=34132043&code=34132055&l=300x250&aid=37756814&ahcid=13583259&bimpd=~8ZYZwczL5DQFQwPpTT9wulToIsnWok2IWcP0p3IX6eixHVp5OUQWYhUntHW226fe7k41UI79X7l0-5DL3nUwS1QzpOtUzDD7jAq1qU0s66gAA76ZdgnweKOJTtjAJ6ZdL18fToCAzalS-OV3d51wzT0N6uZjXmxVwTwlQ0LqXSRwz31k5TM5wxmWkdpyvySFp84PpQJQ9OCkJErrhwPxu1I3E3P-FB6kjjH6FR02YkC5x6ypDHeGgVqxhgDHu36L0uLdxhZrwFOEjW1Tis-h1HLDl0l8iZoUVZKRFEAB47-W-Gr6Sm7r1W2FOo5bomy9xD4TlwdZPI6R7zfl4KKGiII4Fex5znyJjQ8av0OqHyUDICPHfMdmIJPAUiDEP8dxJZwz5oE43glANR6Wq5i8f-o8WWIt5OjQhOpfYvcSwrNUs5nrQlQXp3hRuxB7aIUYiGuX4yMYvoesuygkj2FzuQqlNi3ZzUR0wGuFhXG06zRgViS7wjm4CQPa5MThV5nzRmoMAlezrBq75SQska05jeijBhx5wlsk-tGCL7aE_bwcRPBZ6SYxTQZU4Q8cR0rnVFEzv6WzSC7OHCyH_Ding8T91bYd75h9MAc4tJllZxAIuMJttoARcoe4urR6Svyl1SikGFDWnwdciYKZiZIKz5EpfhJNrbnpeohi6bd05JauiNIO4gkjRXkvxhMyiCZmv-QWSi_7DqgmzJkeEHqPoaz3zE0-eJlVa0q_etA0xQXN9PsKfT7h0Volia-Q0WTK6h267NstdfqvtVetFDd5QAopoEe47krmOTFjLPvqQCO3UE17EsGMzfsvJeyHh9gp&acp=0.5433602\'>\x3C/script>" + 
+'</body></html>'
+);
+
+if (navigator.userAgent.indexOf('MSIE') == -1 && navigator.userAgent.indexOf('Opera') == -1) i.doc.close();
+})(window, document);

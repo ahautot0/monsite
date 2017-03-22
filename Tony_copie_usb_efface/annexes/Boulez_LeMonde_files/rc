@@ -1,0 +1,12 @@
+var nugg4appnexus = new Image();nugg4appnexus.src ='http://ib.adnxs.com/seg?add_code=as_a1:9,as_a10:9,as_a11:9,as_a12:2,as_a13:9,as_a14:9,as_a15:9,as_a16:9,as_a17:2,as_a18:9,as_a2:9,as_a20:2,as_a21:9,as_a22:2,as_a3:2,as_a4:9,as_a5:9,as_a6:9,as_a7:9,as_a8:9,as_a9:9,as_d1:2,as_d10:1,as_d11:2,as_d12:1,as_d2:7,as_d3:2,as_d4:8,as_d7:2,as_d8:2,as_d9:4,as_f2:4,as_g1:2,as_g2:1,as_g3:2,as_g4:2,as_g5:1,as_i10:9,as_i11:9,as_i12:9,as_i13:2,as_i14:9,as_i15:4,as_i16:9,as_i17:9,as_i18:9,as_i48:3,as_i20:9,as_i21:9,as_i23:2,as_i26:9,as_i27:4,as_i28:9,as_i29:9,as_i3:2,as_i36:9,as_i42:4,as_i44:4,as_i46:4,as_i8:9,as_i9:3,as_n1:2,as_n2:2,as_n3:2,as_n4:2,as_n5:1,as_n6:1,as_n7:1,as_n8:1,as_n9:1,as_d13:1,as_i1:4,as_h1:1,as_h2:9,as_h3:9,as_h4:1,as_h5:9,as_h6:9,as_h7:9,as_h8:9,as_h9:1,as_h10:1,as_h11:9,as_h12:1,as_h13:9,as_h14:9,as_h15:9,as_h16:1,as_h17:1,as_c1:1,as_c2:9,as_c3:9,as_c4:9,as_c5:0,as_e2:1,as_e3:5,as_e4:1,as_c6:1,as_c7:1,as_c8:1,as_c9:0,as_c10:1,as_c11:0,as_c12:9,as_c13:2&member=1058';var nuggad_on=1;(function() {
+  window._adexc = window._adexc || [];
+     window.nugg_kv = window.nugg_kv || {};
+     window.nugg_kv.nuggsid=563271789;
+     window.nugg_kv.nuggn=1824551309;
+    window._adexc.push(
+    ['_kv',JSON.stringify(window.nugg_kv)]
+  );
+var axd = document.createElement('script'); axd.type = 'text/javascript'; axd.async = true;
+    axd.src = ('https:' === document.location.protocol ? 'https://' : 'http://') + 'dmp.theadex.com/d/244/575/s/adex.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(axd, s);
+})();
